@@ -12,6 +12,8 @@
     color: black;
     padding-right: 15px;
 }
+.header a:hover{
+    text-decoration: underline;
 .googleimg {
     width: 272px;
     height: 92px;
