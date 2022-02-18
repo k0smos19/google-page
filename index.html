@@ -7,33 +7,41 @@
 </head>
 
 <body>
-    <div class="googlepage  ">
-        <div class="header">
-            <a href="#">Почта</a>
-            <a href="#">Картинки</a>
-            <a href="#">
-                <p><img src="apps_black_24dp.svg" alt="Application"></p>
-            </a>
-            <a href="#">
-                <p><img src="account_circle_black_24dp.svg" alt="Account"></p>
-            </a>
+    <div class="googlepage">
+        <div class="linkimage">
+            <div class="linksheader">
+                <a href="#">
+                    <p>Почта</p>
+                </a>
+                <a href="#">
+                    <p>Картинки</p>
+                </a>
+            </div>
+            <div class="imgheader">
+                <button><img class="btnclick" src="account_circle_black_24dp.svg"></button>
+                <button><img src="apps_black_24dp.svg"></button>
+            </div>
         </div>
-
-        <div class="content">
-            <p><img class="googleimg" src="google.png"></p>
-            <div class="search-system">
-                <p><img id="lupa" src="search_black_24dp.svg" alt="Лупа"></p>
-                <input id="search">
-                <p><img id="keyboard" src="keyboard_black_24dp.svg" alt="" title="Экранная клавиатура"></p>
-                <p><img id="voice" src="mic_black_24dp.svg" alt="" title="Голосовой поиск"></p>
-            </div>
-            <div class="btn">
-                <button>Поиски в Google</button>
-                <button> Мне повезёт!</button>
-            </div>
-        </div class="footer">
+        <div class="overlay">
+            <div class="overlayclose">X</div>
+        </div>
+        <div class="header">
+            <div class="content">
+                <p><img class="googleimg" src="google.png"></p>
+                <div class="search-system">
+                    <p><img id="lupa" src="search_black_24dp.svg" alt="Лупа"></p>
+                    <input id="search">
+                    <p><img id="keyboard" src="keyboard_black_24dp.svg" alt="" title="Экранная клавиатура"></p>
+                    <p><img id="voice" src="mic_black_24dp.svg" alt="" title="Голосовой поиск"></p>
+                </div>
+                <div class="btn">
+                    <button>Поиски в Google</button>
+                    <button> Мне повезёт!</button>
+                </div>
+            </div class="footer">
+        </div>
     </div>
-    </div>
+    <script src="app.js"></script>
 </body>
 
 </html>
