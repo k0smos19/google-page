@@ -1,25 +1,50 @@
-.header{
+.googlepage{
+    display: block;
+}
+.linkimage{
     display: flex;
     align-items: center;
     float: right;
-    margin: 0px auto;
-    text-align: right;
 }
-.header a{
-    font-family: arial,sans-serif;
-    font-size: 13px;
+.linkimage a {
     text-decoration: none;
     color: black;
-    padding-right: 15px;
+    font-family: arial,sans-serif;
+    font-size: 13px;
 }
-.header a:hover{
-    text-decoration: underline;
+.linksheader{
+    display: flex;
 }
-.googleimg {
-    width: 272px;
-    height: 92px;
+.linksheader a {
+    margin-right: 10px;
 }
- 
+.imgheader button{
+    margin-right: 15px;
+    border: none;
+    background: none;
+}
+.imgheader button:hover{
+    cursor: pointer;
+    box-shadow: 0px 1px 6px black;
+}
+.overlay{
+    display: none;
+    position: fixed;
+    top: 70px;
+    right: 20px;
+    width: 300px;
+    height: 400px;
+    background: silver;
+    border-radius: 5px;
+    box-shadow: 0px 1px 6px black;
+    opacity: 0.5;
+}
+.overlayclose{
+position: absolute;
+right: 10px;
+top: 10px;
+cursor: pointer;
+}
 .content{
     width: 100%;
     display: flex;
@@ -72,7 +97,3 @@
     border: 1px solid rgb(220,222,225) ; 
 }
 
-
-title{
-    position: fixed;
-}
